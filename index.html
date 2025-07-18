@@ -6,6 +6,12 @@ layout: presentation
 	{% include slide.html %}
 	<div class="page-break"></div>
 {% endfor %}
+
+<section class="step slide">
+  <h1>Maritime Email Validator</h1>
+  <p><a href="maritime-email-validator.html">Click here to validate a maritime email address.</a></p>
+</section>
+
 {% unless site.simple-slideshow %}
 {% if site.overview %}
 <section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
